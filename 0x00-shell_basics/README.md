@@ -1,2 +1,3 @@
 # First bash script
-Prints in the bash the path name
+Prints in the bash different basic linux commands.
+
