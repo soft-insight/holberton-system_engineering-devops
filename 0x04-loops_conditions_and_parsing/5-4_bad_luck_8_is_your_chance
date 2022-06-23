@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# loops and conditionals
+
+i=1
+while [ $i -le 10 ]
+do
+	if [ $((i%4)) == 0 ]
+	then
+		echo "bad luck"
+		((i++))
+	fi
+	echo "Best School"
+	((i++))
+done
